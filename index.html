@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <p class='title'>Piano Player</p>
+  <p id='demo'>Follow the song below to play  the piano.</p>
+  <section class="piano">
+    <section id='c-key' class="key">
+      <section class='keynote'>C</section>
+      <audio id='c-audio' src = "./mp3-notes/c4.mp3"></audio>
+    </section>
+    <section id='c-sharp-key' class="black-key">
+      <section class='black-keynote'>C#</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/c-4.mp3"></audio>
+    </section>
+    <section id='d-key' class="key">
+      <section class='keynote'>D</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/d4.mp3"></audio>
+    </section>
+    <section id='d-sharp-key' class="black-key">
+      <section class='black-keynote'>D#</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/d-4.mp3"></audio>
+    </section>
+    <section id='e-key' class="key">
+      <section class='keynote'>E</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/e4.mp3"></audio>
+    </section>
+    <section id='f-key' class="key">
+      <section class='keynote'>F</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/f4.mp3"></audio>
+    </section>
+    <section id='f-sharp-key' class="black-key">
+      <section class='black-keynote'>F#</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/f-4.mp3"></audio>
+    </section>
+    <section id='g-key' class="key">
+      <section class='keynote'>G</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/g4.mp3"></audio>
+    </section>
+    <section id='g-sharp-key' class="black-key">
+      <section class='black-keynote'>G#</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/g-4.mp3"></audio>
+    </section>
+    <section id='a-key' class="key">
+      <section class='keynote'>A</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/a5.mp3"></audio>
+    </section>
+    <section id='a-sharp-key' class="black-key">
+      <section class='black-keynote'>A#</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/a-5.mp3"></audio>
+    </section>
+    <section id='b-key' class="key">
+      <section class='keynote'>B</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/b5.mp3"></audio>
+    </section>
+    <section id='high-c-key' class="key">
+      <section class='keynote'>C2</section>
+      <audio id='c-sharp-audio' src = "./mp3-notes/c5.mp3"></audio>
+    </section>
+  </section>
+
+  <section id='lyrics'>
+    <section id='column-one'>
+      <section id="word-one">HAP-</section>
+      <section id="letter-note-one">C</section>
+    </section>
+    <section id='column-two'>
+      <section id="word-two">PY</section>
+      <section id="letter-note-two">C</section>
+    </section>
+    <section id='column-three'>
+      <section id="word-three">BIRTH-</section>
+      <section id="letter-note-three">D</section>
+    </section>
+    <section id='column-four'>
+      <section id="word-four">DAY</section>
+      <section id="letter-note-four">C</section>
+    </section>
+    <section id='column-five'>
+      <section id="word-five">TO</section>
+      <section id="letter-note-five">F</section>
+    </section>
+    <section id='column-six'>
+      <section id="word-six">YOU</section>
+      <section id="letter-note-six">E</section>
+    </section>
+    <section id='column-optional' class='column-optional'>
+      <section id="word-optional">END</section>
+      <section id="letter-note-optional">D</section>
+    </section>
+
+    <button id="first-next-line">Line 2</button>
+    <button id="second-next-line">Line 3</button>
+    <button id="third-next-line">Line 4</button>
+    <button id="fourth-next-line">Reset</button>
+  </section>
+
+  <script  src="./main.js"></script>
+
+</body>
+</html>
